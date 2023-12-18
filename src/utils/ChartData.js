@@ -1,41 +1,46 @@
 const chartdata = [
     {
         date: "Jan 22",
-        SemiAnalysis: 2890,
-        "The Pragmatic Engineer": 2338,
+        "Book": 1319,
+        "Computer": 1880
     },
     {
         date: "Feb 22",
-        SemiAnalysis: 2756,
-        "The Pragmatic Engineer": 2103,
+        "Book": 1242,
+        "Computer": 1990
     },
     {
         date: "Mar 22",
-        SemiAnalysis: 3322,
-        "The Pragmatic Engineer": 2194,
+        "Book": 1365,
+        "Computer": 1639
     },
     {
         date: "Apr 22",
-        SemiAnalysis: 3470,
-        "The Pragmatic Engineer": 2108,
+        "Book": 1007,
+        "Computer": 1778
     },
     {
         date: "May 22",
-        SemiAnalysis: 3475,
-        "The Pragmatic Engineer": 1812,
+        "Book": 1453,
+        "Computer": 1909
     },
     {
         date: "Jun 22",
-        SemiAnalysis: 3129,
-        "The Pragmatic Engineer": 1726,
+        "Book": 1312,
+        "Computer": 1511
+    },
+    {
+        date: "Jul 22",
+        "Book": 1057,
+        "Computer": 1678
+    },
+    {
+        date: "Aug 22",
+        "Book": 1159,
+        "Computer": 1933
     },
 ];
 
-const valueFormatter = (number) => {
-    return "$ " + new Intl.NumberFormat("us").format(number).toString();
-  };
-
 export default {
-    chartdata,
-    valueFormatter
+    chartdata
 }
